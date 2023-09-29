@@ -1,78 +1,102 @@
-#topNav{
-    background-color: black;
+#topNav {
+  background-color: black;
 }
-.textWhite{
-    color: white;
-    font-size: medium;
+.textWhite {
+  color: white;
+  font-size: medium;
 }
-.navSearch{
-    display: flex;
-    align-items: center;
-    padding: 10px 150px 10px 150px;
+.navSearch {
+  display: flex;
+  align-items: center;
+  padding: 10px 150px 10px 150px;
 }
-#warlogo{
-    width: 25px;
+#warlogo {
+  width: 25px;
 }
-.headBar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 150px;
+.headBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 150px;
 }
-.gwlogo{
-    width: 200px;
+.gwlogo {
+  width: 200px;
 }
-.searchBar{
-    width: 300px;
-    padding: 20px 200px 20px 200px
+.searchBar {
+  width: 300px;
+  padding: 20px 200px 20px 200px;
 }
-.unionJack{
-    width: 25px;
-    justify-content: end;
-    padding-right: 150px;
+.unionJack {
+  width: 25px;
+  justify-content: end;
+  padding-right: 150px;
 }
-.flexy{
-    display: flex;
+.flexy {
+  display: flex;
 }
-#mainNav{
-    background-color: black;
-    display: flex;
-    padding: 10px 80px 10px 80px;
+#mainNav {
+  background-color: black;
+  display: flex;
+  padding: 10px 80px 10px 80px;
 }
-.rowFlex{
-    display: flex;
-    justify-content: space-between;
-    background-size: cover;
+.rowFlex {
+  display: flex;
+  justify-content: space-between;
+  background-size: cover;
 }
-.newsImage{
-    width: 530px;
-    padding: 10px;
+.newsImage {
+  width: 530px;
+  padding: 10px;
+}
+.heroImage {
+  background-image: url("./images/GWheroRight.webp");
+  padding-bottom: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+}
+.sectionGap {
+  padding-top: 22px;
+}
+.freeMini {
+  background-image: url("./images/GWfree\ mini.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.deliverFlex {
+  display: flex;
+  justify-content: space-evenly;
+}
+.deliverImage {
+  width: 220px;
+  padding: 30px;
+}
+.center {
+  justify-content: center;
+}
 
+.footerBanner{
+  display:flex;
+  background-color: black;
+  padding: 15px;
+  padding-left: 150px;
 }
-.heroImage{
-    background-image: url("./images/GWheroRight.webp");
-    padding-bottom: 20px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 550px;
+.textWhiteh2 {
+  color: white;
+  font-size: x-large;
 }
-.sectionGap{
-    padding-top: 22px;
+.darkGrey{
+  justify-content: space-between;
+  padding-right: 150px;
+  padding-left: 150px;
+  background-color: rgb(44, 41, 41);
 }
-.freeMini{
-    background-image: url("./images/GWfree\ mini.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 300px;
+.flexyColumn{
+  display: flex;
+  flex-direction: column;
 }
-.deliverFlex{
-    display: flex;
-    justify-content: space-evenly;
-}
-.deliverImage{
-    width: 220px;
-    padding: 30px;
-}
-.center{
-    justify-content: center;
+.linkpaddy{
+  padding: 5px;
+  padding-bottom: 10px;
 }
