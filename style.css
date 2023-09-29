@@ -1,9 +1,23 @@
+.fifty{
+  width: 50%;
+}
+.flexBTM{
+  display: flex;
+  align-items: end;
+}
+.paddyRight{
+  padding-right: 150px;
+  display: flex;
+  align-items: center;
+}
 #topNav {
   background-color: black;
+  display: flex;
+  align-items: center;
 }
 .flexEnd {
   display: flex;
-  align-items: flex-end;
+  justify-content: flex-end;
 }
 .textWhite {
   color: white;
@@ -11,11 +25,14 @@
 }
 .navSearch {
   display: flex;
-  align-items: start;
+  justify-content: start;
   padding: 10px 150px 10px 150px;
 }
 #warlogo {
-  width: 25px;
+  padding-left: 20px;
+  padding-right: 10px;
+  height:35px;
+  width: 35px;
 }
 .headBar {
   display: flex;
