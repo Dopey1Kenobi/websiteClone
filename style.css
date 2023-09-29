@@ -1,13 +1,17 @@
 #topNav {
   background-color: black;
 }
+.flexEnd {
+  display: flex;
+  align-items: flex-end;
+}
 .textWhite {
   color: white;
   font-size: medium;
 }
 .navSearch {
   display: flex;
-  align-items: center;
+  align-items: start;
   padding: 10px 150px 10px 150px;
 }
 #warlogo {
@@ -73,11 +77,12 @@
   padding: 30px;
 }
 .center {
+  display: flex;
   justify-content: center;
 }
 
-.footerBanner{
-  display:flex;
+.footerBanner {
+  display: flex;
   background-color: black;
   padding: 15px;
   padding-left: 150px;
@@ -86,17 +91,21 @@
   color: white;
   font-size: x-large;
 }
-.darkGrey{
+.darkGrey {
   justify-content: space-between;
   padding-right: 150px;
   padding-left: 150px;
   background-color: rgb(44, 41, 41);
 }
-.flexyColumn{
+.flexyColumn {
   display: flex;
   flex-direction: column;
 }
-.linkpaddy{
+.linkpaddy {
   padding: 5px;
   padding-bottom: 10px;
+}
+.bold {
+  font-size: xx-large;
+  font-weight: bold;
 }
